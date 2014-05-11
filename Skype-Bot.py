@@ -284,6 +284,6 @@ if skype.Client.IsRunning == False:
 skype.Attach();
 
 print 'Skype Bot currently running on user',skype.CurrentUserHandle, "\n"
-
-while True: 
-    raw_input('')
+running = True
+while running:
+    running = False
